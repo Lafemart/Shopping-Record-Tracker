@@ -1,3 +1,9 @@
+
+.h2{
+  justify-content: center;
+  text-align: center;
+  color: #39395f;
+}
 .App {
   text-align: center;
 }
