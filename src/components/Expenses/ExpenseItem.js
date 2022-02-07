@@ -8,8 +8,10 @@ import './ExpenseItem.css';
 const ExpenseItem = (props) => {
     
 const [title] =   useState(props.title); /* this is a type of react hook*/
-    
+
+ 
     return (
+
         <Card className='expense-item'>   
             <ExpenseDate date={props.date} />         
             <div className='expense-item__description'>
